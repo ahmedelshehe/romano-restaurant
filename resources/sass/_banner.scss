@@ -1,0 +1,40 @@
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+
+    .content{
+        max-width: 900px;
+        text-align: center;
+        h2{
+            font-size: 5em;
+            color: #fff;
+            text-shadow: 1px 2px rgba($color: #000000, $alpha: 0.3);
+        }
+        p{
+            font-size: 1.2em;
+            color: #fff;
+            text-shadow: 1px 2px rgba($color: #000000, $alpha: 0.1);
+        }
+        .btn{
+            font-size: 1.2em;
+            color: #fff;
+            background: #ff0157;
+            display: inline-block;
+            padding: 10px 30px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 2px;
+            transition:all .5s;
+            &:hover{
+                letter-spacing: 5px;
+            }
+        }
+    }
+}
